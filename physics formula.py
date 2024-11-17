@@ -1,6 +1,6 @@
 type = input("Newton's second law of motion, voltage, wave speed, time, or distance: ")
 if type == "voltage":
-	I = float(input("give the current: "), "amp")
+	I = float(input("give the current: "))
 	R = float(input("give the resistance: "))
 	total = I*R
 	print((total), "volts")
